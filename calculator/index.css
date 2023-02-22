@@ -1,0 +1,131 @@
+*{
+    background-color: rgb(69, 92, 206);
+}
+body{
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 10 auto;
+    padding: 20 20px;
+}
+h1{
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration: underline;
+}
+h5{
+    font-style: italic;
+    font-size:smaller;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+}
+input{
+    padding: 10px 1px;
+    margin: 20px ;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #4CAF50;
+    text-align: center;
+}
+.input-1:hover{
+    background-color: whitesmoke;
+}
+.input-2:hover{
+    background-color: whitesmoke;
+}
+#render{
+    text-shadow: 2px 2px 4px #1dc63c;
+    font-style: italic;
+}
+
+.all-button{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.button-style-1{
+    background-color:  #7ba2c7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: margin-left 0.5s ease;
+    cursor: pointer;
+
+}
+.button-style-2{
+    background-color:  #80c77b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: margin-left 0.5s ease;
+    cursor: pointer;
+
+}
+.button-style-3{
+    background-color:  #a27bc7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: margin-left 0.5s ease;
+    cursor: pointer;
+
+}
+.button-style-4{
+    background-color:  #c77b9d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: margin-left 0.5s ease;
+    cursor: pointer;
+    
+}
+.button-style-1:hover {
+    background-color: #008CBA; /* Blue */
+}
+.button-style-2:hover {
+    background-color: #008CBA; /* Blue */
+}
+.button-style-3:hover {
+    background-color: #008CBA; /* Blue */
+}
+.button-style-4:hover {
+    background-color: #008CBA; /* Blue */
+}
+.rounded-image {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
+
+        
